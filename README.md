@@ -51,3 +51,4 @@ The gallery is one editor on a sample buffer. Word wrap and the light/dark toggl
 
 Lyth Mono Regular v0.10.0 is vendored from the [v0.10.0 release](https://github.com/why-trv/LythMono/releases/tag/v0.10.0). The face is unmodified. It is licensed under the SIL Open Font License; see `crates/carboneditor/fonts/OFL.txt`.
 # carboneditor
+# carboneditor
