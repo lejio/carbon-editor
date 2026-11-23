@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = ["crates/carboneditor", "crates/carboneditor-gallery"]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+version = "0.1.0"
+
+[workspace.dependencies]
+eframe = "0.34"
+egui = "0.34"
+
+# Wasm debug builds of wgpu are too slow to use without this.
+[profile.release]
+opt-level = 2
+
+[profile.dev.package."*"]
+opt-level = 2

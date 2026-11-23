@@ -1,0 +1,10 @@
+[package]
+name = "carboneditor"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+description = "egui text editor with project context, word wrap, and Lyth Mono"
+publish = false
+
+[dependencies]
+egui.workspace = true
